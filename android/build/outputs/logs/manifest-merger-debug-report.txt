@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:70-102
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:2:3-25:17
+receiver#com.sunmi.innerprinter.PrinterReceiver
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:3:3-24:14
+	android:enabled
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:3:67-89
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:3:13-66
+intent-filter#action:name:woyou.aidlservice.jiuv5.COVER_ERROR_ACTION+action:name:woyou.aidlservice.jiuv5.COVER_OPEN_ACTION+action:name:woyou.aidlservice.jiuv5.ERROR_ACTION+action:name:woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON+action:name:woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1+action:name:woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2+action:name:woyou.aidlservice.jiuv5.NORMAL_ACTION+action:name:woyou.aidlservice.jiuv5.OUT_OF_PAPER_ACTION+action:name:woyou.aidlservice.jiuv5.OVER_HEATING_ACITON
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:4:7-23:23
+	android:priority
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:4:22-45
+action#woyou.aidlservice.jiuv5.OUT_OF_PAPER_ACTION
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:6:9-78
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:6:17-75
+action#woyou.aidlservice.jiuv5.ERROR_ACTION
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:8:9-71
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:8:17-68
+action#woyou.aidlservice.jiuv5.NORMAL_ACTION
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:10:9-72
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:10:17-69
+action#woyou.aidlservice.jiuv5.COVER_OPEN_ACTION
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:12:9-76
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:12:17-73
+action#woyou.aidlservice.jiuv5.COVER_ERROR_ACTION
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:14:9-77
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:14:17-74
+action#woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_1
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:16:17-76
+action#woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:18:17-76
+action#woyou.aidlservice.jiuv5.OVER_HEATING_ACITON
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:20:9-78
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:20:17-75
+action#woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON
+ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:22:9-83
+	android:name
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml:22:17-80
+uses-sdk
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		ADDED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Duc\Work\fwg-pickdy-sunmi\fwg.pickdy.sunmi\node_modules\react-native-sunmi-inner-printer\android\src\main\AndroidManifest.xml

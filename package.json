@@ -1,0 +1,61 @@
+{
+  "_from": "react-native-sunmi-inner-printer",
+  "_id": "react-native-sunmi-inner-printer@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-+/2Kkcq/Do47nqfmpSwJ+ruRjtk20zo8UeCRgxuqoLCkD28M7hcUDh3nXEFOw7N52UjwWkopkhRKbp0br4FATQ==",
+  "_location": "/react-native-sunmi-inner-printer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-sunmi-inner-printer",
+    "name": "react-native-sunmi-inner-printer",
+    "escapedName": "react-native-sunmi-inner-printer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-sunmi-inner-printer/-/react-native-sunmi-inner-printer-0.1.6.tgz",
+  "_shasum": "0a1579973128a6efa4d08a8f9932015810976cbc",
+  "_spec": "react-native-sunmi-inner-printer",
+  "_where": "D:\\Duc\\Work\\fwg-pickdy-sunmi\\fwg.pickdy.sunmi",
+  "author": {
+    "name": "Janus J K Lu",
+    "email": "januslo6211@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/januslo/react-native-sunmi-inner-printer/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "deprecated": false,
+  "description": "http://docs.sunmi.com/htmls/index.html?lang=zh##V1文档资源 根据商米V1文档开发的蓝牙打印for React Native.",
+  "homepage": "https://github.com/januslo/react-native-sunmi-inner-printer#readme",
+  "keywords": [
+    "react-native",
+    "sunmi",
+    "printer",
+    "商米",
+    "打印"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-sunmi-inner-printer",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-native": "^0.56.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/januslo/react-native-sunmi-inner-printer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.6"
+}
