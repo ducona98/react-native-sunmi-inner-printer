@@ -721,6 +721,62 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
             }
         });
     }
+    
+    /**
+     * Print a row of a table
+     */
+    @ReactMethod
+    public void printTable(ReadableArray colsTextArr, ReadableArray colsWidthArr, ReadableArray colsAlign, final Promise p) {
+        final IWoyouService ss = woyouService;
+        final String[] clst = new String[colsTextArr.size()];
+        for (int i = 0; i < colsTextArr.size(); i++) {
+            clst[i] = colsTextArr.getString(i);
+        }
+        final int[] clsw = new int[colsWidthArr.size()];
+        for (int i = 0; i < colsWidthArr.size(); i++) {
+            clsw[i] = colsWidthArr.getInt(i);
+        }
+        final int[] clsa = new int[colsAlign.size()];
+        for (int i = 0; i < colsAlign.size(); i++) {
+            clsa[i] = colsAlign.getInt(i);
+        }
+        ThreadPoolManager.getInstance().executeTask(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    ss.printColumnsString(clst, clsw, clsa, new ICallback.Stub() {
+                        @Override
+                        public void onPrintResult(int par1, String par2) {
+                            Log.d(TAG, "ON PRINT RES: " + par1 + ", " + par2);
+                        }
+
+                        @Override
+                        public void onRunResult(boolean isSuccess) {
+                            if (isSuccess) {
+                                p.resolve(null);
+                            } else {
+                                p.reject("0", isSuccess + "");
+                            }
+                        }
+
+                        @Override
+                        public void onReturnString(String result) {
+                            p.resolve(result);
+                        }
+
+                        @Override
+                        public void onRaiseException(int code, String msg) {
+                            p.reject("" + code, msg);
+                        }
+                    });
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Log.i(TAG, "ERROR: " + e.getMessage());
+                    p.reject("" + 0, e.getMessage());
+                }
+            }
+        });
+    }
 
 
     /**
